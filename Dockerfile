@@ -1,6 +1,6 @@
 # Pull base image
 # ---------------
-FROM jenkinsci/jenkins:latest
+FROM jenkins/jenkins:lts
 
 # Author
 # ------

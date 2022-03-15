@@ -11,6 +11,9 @@ MAINTAINER Mark Heckler <mark.heckler@gmail.com, @MkHeck>
 
 USER root
 
+#update
+RUN apt-get update -y
+
 # install wget
 RUN apt-get install -y wget
 
